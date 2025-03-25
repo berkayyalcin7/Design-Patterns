@@ -1,0 +1,7 @@
+﻿
+-- Behavioral category : Davranışsal
+
+--Runtime esnasında bir objenin davranışını değiştirmemize imkan verir.
+-- Consumer'lara runtime esnasında strategy seçmelerine imkan tanır.
+
+

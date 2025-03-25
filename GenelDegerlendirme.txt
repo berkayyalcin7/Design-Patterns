@@ -1,0 +1,25 @@
+﻿Observer Pattern (Event-driven programlama nedeniyle çok yaygın).
+
+Strategy Pattern (DI ile sıkça kullanılır).
+
+Decorator Pattern (Middleware ve filtreleme için).
+
+Command Pattern (CQRS ve MediatR ile popüler).
+
+Adapter Pattern (Eski sistemlerle entegrasyon için).
+
+Template Pattern (Kod tekrarını azaltmak için).
+
+Chain of Responsibility (Middleware gibi alanlarda).
+
+Composite Pattern (Hiyerarşik yapılar için daha az yaygın).
+
+
+
+-----	Genel Değerlendirme
+
+Observer, Strategy ve Decorator desenleri, .NET’in yerleşik mekanizmaları (event’ler, DI, middleware) ile doğal bir uyum içinde olduğu için en sık kullanılanlardır.
+
+Command deseni, özellikle CQRS mimarisiyle birlikte popülerdir.
+
+Composite gibi desenler ise daha özel senaryolarda (örneğin hiyerarşik veri yapıları) tercih edilir.

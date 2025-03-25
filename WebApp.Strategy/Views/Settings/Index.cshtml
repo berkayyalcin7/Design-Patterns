@@ -1,0 +1,18 @@
+﻿@using WebApp.Strategy.Enums
+@model Settings
+
+@{
+    ViewData["Title"] = "Settings";
+}
+
+
+<form asp-controller="Settings" asp-action="ChangeDatabase">
+
+    <!-- ENUM OKUMA HTML -->
+    <select asp-for="DatabaseType" asp-items="Html.GetEnumSelectList<EDatabaseType>()">
+
+    </select>
+
+    <button type="submit">Güncelle</button>
+
+</form>

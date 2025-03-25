@@ -1,0 +1,3 @@
+﻿Behavioral - Davranışsal Tasarım deseni
+
+Metot çağırma işlemlerini kapsüller.
